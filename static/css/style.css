@@ -1,0 +1,21 @@
+@font-face{font-family:"Open Sans Light";src:url("../fonts/OpenSans-Light.eot");src:local("☺"),url("../fonts/OpenSans-Light.woff") format("woff");}*{font-family:"Open Sans Light";color:#ffffff;}
+.slides{margin:0;padding:0;position:relative;z-index:8;width:1380px;height:460px;}
+.presentation{position:absolute;height:100%;width:100%;left:0;top:0;display:block;overflow:hidden;}
+.slide{width:1380px;height:460px;}
+body{background:url('../img/bg.png');overflow:hidden;}
+h1,h2,h3,h4,h5,h6{display:inline;}
+#flex-container{width:100%;height:100%;margin:0;padding:0;display:-webkit-box;display:-moz-box;display:box;-webkit-box-pack:center;-moz-box-pack:center;box-pack:center;-webkit-box-align:center;-moz-box-align:center;box-align:center;}
+.panel1{width:220px;height:220px;margin:5px;float:left;}
+.panel2{width:450px;height:220px;margin:5px;float:left;}
+.panel3{width:680px;height:220px;margin:5px;float:left;}
+.icon{position:relative;top:50%;margin-left:10px;margin-top:-75px;width:150px;height:150px;float:left;}.icon img{width:150px;height:150px;}
+.widget-content2{position:relative;width:270px;top:10%;margin-left:auto;margin-top:10px;margin-right:10px;margin-bottom:10px;text-align:left;vertical-align:middle;}.widget-content2 h1{font-size:80px;}
+.widget-content2 h2{font-size:26px;font-weight:bold;}
+.widget-content3{position:relative;width:500px;top:10%;margin-left:auto;margin-top:10px;margin-right:10px;margin-bottom:10px;text-align:left;vertical-align:middle;}.widget-content3 h1{font-size:80px;}
+.widget-content3 h2{font-size:26px;font-weight:bold;}
+#time{background:#25aae2;}
+#weather{background:#0b9444;}
+#nextbus{background:#bf1e2e;}
+#stocks{background:#bf1e2e;}
+#events{background:#ecc32f;}
+#news{background:#25aae2;}
